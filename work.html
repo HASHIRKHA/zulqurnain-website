@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Zulqurnain | Case Studies & Results</title>
+  <meta name="description" content="Premium AI automation case studies — real systems built to increase bookings, reduce manual work, and automate follow-ups." />
+
+  <link rel="stylesheet" href="./main.css" />
+</head>
+
+<body>
+
+  <!-- Background -->
+  <div class="bg">
+    <div class="bg__vignette"></div>
+    <div class="bg__glow bg__glow--a"></div>
+    <div class="bg__glow bg__glow--b"></div>
+    <div class="bg__noise"></div>
+  </div>
+
+  <!-- Loader -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <span class="loader__mark"></span>
+      <div>
+        <div class="loader__title">Zulqurnain</div>
+        <div class="loader__sub">Loading premium experience…</div>
+      </div>
+    </div>
+    <div class="loader__bar">
+      <div class="loader__barFill" id="loaderBar"></div>
+    </div>
+  </div>
+
+  <main class="wrap">
+
+    <!-- ==========================
+        NAVBAR
+    ========================== -->
+    <header class="nav" id="nav">
+      <a class="logo" href="./index.html" aria-label="Zulqurnain Home">
+        <span class="logo__mark"></span>
+        <span class="logo__text">Zulqurnain</span>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary Navigation">
+        <a href="./index.html">Home</a>
+        <a class="is-active" href="./work.html">Overview</a>
+        <a href="./services.html">Services</a>
+        <a href="./process.html">Process</a>
+        <a href="./reviews.html">Reviews</a>
+      </nav>
+
+      <a class="cta" href="./services.html">Free Audit</a>
+    </header>
+
+    <!-- ==========================
+        HERO (OVERVIEW)
+    ========================== -->
+    <section class="hero reveal" style="margin-top:60px;">
+      <p class="pill">
+        <span class="pill__dot"></span>
+        Real client systems • Results driven • Premium automation
+      </p>
+
+      <h1 class="hero__title">
+        Case Studies &<br />
+        <span class="grad">Client Transformations</span>
+      </h1>
+
+      <p class="hero__sub">
+        Below are real systems I built for agencies, coaches, and service businesses.
+        Each one shows what was broken, what we automated, and the results that followed.
+      </p>
+
+      <div class="hero__buttons">
+        <a class="btn btn--primary btn--xl" href="./services.html">Get a Free Audit</a>
+        <a class="btn btn--ghost btn--xl" href="#cases">See Results</a>
+      </div>
+    </section>
+
+    <!-- ==========================
+        RESULTS STRIP
+    ========================== -->
+    <section class="section reveal" style="margin-top:48px;">
+      <div class="hero__stats">
+        <div class="stat reveal" data-count="60" data-suffix=" sec">
+          <div class="stat__top">
+            <div class="stat__icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M12 3a9 9 0 1 0 9 9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M12 12l4-3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="stat__trend down">↓ Reply Time</div>
+          </div>
+          <div class="stat__num"><span class="statCount">0</span></div>
+          <div class="stat__label">Instant follow-up systems that respond immediately</div>
+        </div>
+
+        <div class="stat reveal" data-count="35" data-suffix="%">
+          <div class="stat__top">
+            <div class="stat__icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M7 3v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M17 3v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M4 8h16" stroke="currentColor" stroke-width="2"/>
+                <path d="M6 8v13h12V8" stroke="currentColor" stroke-width="2"/>
+                <path d="M9.5 14l2 2 4-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="stat__trend up">↑ Bookings</div>
+          </div>
+          <div class="stat__num">+<span class="statCount">0</span></div>
+          <div class="stat__label">More appointments from automated follow-up sequences</div>
+        </div>
+
+        <div class="stat reveal" data-count="40" data-suffix="%">
+          <div class="stat__top">
+            <div class="stat__icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M4 7h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M4 12h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M4 17h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="stat__trend down">↓ Manual Work</div>
+          </div>
+          <div class="stat__num">-<span class="statCount">0</span></div>
+          <div class="stat__label">Less admin work, more time for real growth</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================
+        CASE STUDIES GRID
+    ========================== -->
+    <section class="section caseStudies reveal" id="cases">
+      <div class="section__head">
+        <h2 class="section__title">Full Case Study Breakdowns</h2>
+        <p class="section__sub">
+          Click any case study to view the full breakdown — problem, solution, and results.
+        </p>
+      </div>
+
+      <div class="caseGrid caseGrid--full">
+
+        <!-- Case 1 -->
+        <article class="caseCard reveal openCaseModal"
+          data-title="AI Booking System"
+          data-sub="From slow replies → to instant bookings"
+          data-problem="Leads were waiting hours for replies, causing missed opportunities."
+          data-solution="Built instant follow-up (SMS + Email + AI routing) + calendar booking flow."
+          data-result="Reply time under 60 seconds, bookings increased significantly."
+          data-image="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1400&q=80"
+        >
+          <div class="caseCard__media">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1400&q=80" alt="Analytics Dashboard">
+          </div>
+          <div class="caseCard__content">
+            <div class="caseBadge">AI BOOKING SYSTEM</div>
+            <h3>From slow replies → to instant bookings</h3>
+            <p>Instant lead response automation + booking flow built inside CRM.</p>
+            <button class="btn btn--primary btn--xl caseBtn">View Full Breakdown →</button>
+          </div>
+        </article>
+
+        <!-- Case 2 -->
+        <article class="caseCard reveal openCaseModal"
+          data-title="AI Lead Qualification"
+          data-sub="From messy leads → to qualified appointments"
+          data-problem="Unqualified leads clogged the pipeline and wasted time."
+          data-solution="Installed lead scoring + AI qualification + routing rules."
+          data-result="More qualified leads booked, less time wasted on junk leads."
+          data-image="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1400&q=80"
+        >
+          <div class="caseCard__media">
+            <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1400&q=80" alt="Office Team">
+          </div>
+          <div class="caseCard__content">
+            <div class="caseBadge">AI QUALIFICATION</div>
+            <h3>From messy leads → to qualified appointments</h3>
+            <p>Lead scoring + qualification automation for clean pipelines.</p>
+            <button class="btn btn--primary btn--xl caseBtn">View Full Breakdown →</button>
+          </div>
+        </article>
+
+        <!-- Case 3 -->
+        <article class="caseCard reveal openCaseModal"
+          data-title="No-show Reduction"
+          data-sub="From no-shows → to protected calendar"
+          data-problem="High no-show rates were killing revenue and time."
+          data-solution="Added reminders, confirmations, reschedule automation."
+          data-result="No-shows reduced and booking consistency improved."
+          data-image="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1400&q=80"
+        >
+          <div class="caseCard__media">
+            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1400&q=80" alt="Business Meeting">
+          </div>
+          <div class="caseCard__content">
+            <div class="caseBadge">BOOKING SYSTEM</div>
+            <h3>From no-shows → to protected calendar</h3>
+            <p>Confirmation sequences + reschedule flow built into CRM.</p>
+            <button class="btn btn--primary btn--xl caseBtn">View Full Breakdown →</button>
+          </div>
+        </article>
+
+        <!-- Case 4 -->
+        <article class="caseCard reveal openCaseModal"
+          data-title="Stripe + CRM Automation"
+          data-sub="From manual payments → to automated onboarding"
+          data-problem="Payments were handled manually and onboarding was slow."
+          data-solution="Connected Stripe → CRM pipeline updates + onboarding emails."
+          data-result="Auto onboarding triggered instantly after payment."
+          data-image="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80"
+        >
+          <div class="caseCard__media">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80" alt="Tech Setup">
+          </div>
+          <div class="caseCard__content">
+            <div class="caseBadge">PAYMENT AUTOMATION</div>
+            <h3>From manual payments → to automated onboarding</h3>
+            <p>Stripe connected into CRM with instant onboarding workflows.</p>
+            <button class="btn btn--primary btn--xl caseBtn">View Full Breakdown →</button>
+          </div>
+        </article>
+
+        <!-- Case 5 -->
+        <article class="caseCard reveal openCaseModal"
+          data-title="CRM Pipeline Cleanup"
+          data-sub="From messy CRM → to clean tracking"
+          data-problem="Client pipeline had duplicates, missing data, no tracking."
+          data-solution="Built dedupe cleanup + tagging + automated tracking updates."
+          data-result="CRM became accurate, organized, and scalable."
+          data-image="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1400&q=80"
+        >
+          <div class="caseCard__media">
+            <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1400&q=80" alt="CRM Workflow">
+          </div>
+          <div class="caseCard__content">
+            <div class="caseBadge">CRM PIPELINE</div>
+            <h3>From messy CRM → to clean tracking</h3>
+            <p>Clean pipeline stages + automation that keeps data accurate.</p>
+            <button class="btn btn--primary btn--xl caseBtn">View Full Breakdown →</button>
+          </div>
+        </article>
+
+        <!-- Case 6 -->
+        <article class="caseCard reveal openCaseModal"
+          data-title="Lead Capture System"
+          data-sub="From missed leads → to zero drop-offs"
+          data-problem="Leads weren’t being captured properly and follow-ups were inconsistent."
+          data-solution="Added forms + DMs capture automation + alerts + CRM routing."
+          data-result="Zero lead drop-offs, full visibility in pipeline."
+          data-image="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1400&q=80"
+        >
+          <div class="caseCard__media">
+            <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1400&q=80" alt="Lead Automation">
+          </div>
+          <div class="caseCard__content">
+            <div class="caseBadge">LEAD CAPTURE</div>
+            <h3>From missed leads → to zero drop-offs</h3>
+            <p>Every lead captured, tracked, and routed automatically.</p>
+            <button class="btn btn--primary btn--xl caseBtn">View Full Breakdown →</button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ==========================
+        CTA STRIP
+    ========================== -->
+    <section class="autoCTA card reveal" style="margin-top:44px;">
+      <div>
+        <h3 class="autoCTA__title">Want a system like these installed?</h3>
+        <p class="autoCTA__text">
+          I’ll audit your current setup and show you the fastest automations to boost replies,
+          bookings, and tracking — without rebuilding your entire business.
+        </p>
+      </div>
+      <a class="btn btn--primary btn--xl" href="./services.html">Get a Free Audit</a>
+    </section>
+
+    <!-- ==========================
+        FOOTER
+    ========================== -->
+    <footer class="footer reveal">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__logo">
+            <span class="logo__mark"></span>
+            <span class="logo__text">Zulqurnain</span>
+          </div>
+          <p class="footer__muted">
+            Premium AI automation systems built for growth — GoHighLevel, Zapier, Make, and custom workflows.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer__title">Pages</h4>
+          <ul class="footer__links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./work.html">Overview</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./process.html">Process</a></li>
+            <li><a href="./reviews.html">Reviews</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer__title">Contact</h4>
+          <a class="footer__email" href="mailto:youremail@example.com">youremail@example.com</a>
+          <p class="footer__muted">Reply time: usually within 24 hours.</p>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        © <span id="year"></span> Zulqurnain. All rights reserved.
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- Cursor -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ✅ Case Modal -->
+  <div class="caseModal" id="caseModal" aria-hidden="true">
+    <div class="caseModal__overlay" id="caseModalOverlay"></div>
+
+    <div class="caseModal__box" role="dialog" aria-modal="true">
+      <button class="caseModal__close" id="caseModalClose" aria-label="Close modal">✕</button>
+
+      <div class="caseModal__grid">
+        <div class="caseModal__media">
+          <div class="caseModal__img">
+            <img id="caseModalImg" src="" alt="Case Study Image">
+          </div>
+        </div>
+
+        <div class="caseModal__content">
+          <div class="caseBadge">CASE STUDY</div>
+          <h3 id="caseModalTitle">Client Transformation</h3>
+          <p class="caseModal__sub" id="caseModalSub"></p>
+
+          <div class="caseModal__steps">
+            <div class="step">
+              <span class="step__tag">Problem</span>
+              <p id="caseModalProblem"></p>
+            </div>
+
+            <div class="step">
+              <span class="step__tag">Solution</span>
+              <p id="caseModalSolution"></p>
+            </div>
+
+            <div class="step">
+              <span class="step__tag">Result</span>
+              <p id="caseModalResult"></p>
+            </div>
+          </div>
+
+          <a class="btn btn--primary btn--xl" href="./services.html">Get the same system →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+</html>

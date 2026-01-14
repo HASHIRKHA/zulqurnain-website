@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zulqurnain | AI Automation Systems</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+
+  <!-- =========================
+       Background
+  ========================== -->
+  <div class="bg">
+    <div class="bg__vignette"></div>
+    <div class="bg__glow bg__glow--a"></div>
+    <div class="bg__glow bg__glow--b"></div>
+    <div class="bg__noise"></div>
+  </div>
+
+  <!-- =========================
+       Loader
+  ========================== -->
+  <div class="loader" id="loader">
+    <div class="loader__inner">
+      <span class="loader__mark"></span>
+      <div>
+        <div class="loader__title">Zulqurnain</div>
+        <div class="loader__sub">Loading premium experience…</div>
+      </div>
+    </div>
+    <div class="loader__bar">
+      <div class="loader__barFill" id="loaderBar"></div>
+    </div>
+  </div>
+
+  <!-- =========================
+       Cursor (desktop only)
+  ========================== -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <div class="wrap site">
+
+    <!-- =========================
+         Navbar
+    ========================== -->
+    <header class="nav reveal">
+      <a href="./index.html" class="logo">
+        <span class="logo__mark"></span>
+        Zulqurnain
+      </a>
+
+      <nav class="nav__links">
+        <a class="is-active" href="./index.html">Home</a>
+        <a href="./work.html">Overview</a>
+        <a href="./services.html">Services</a>
+        <a href="./process.html">Process</a>
+        <a href="./reviews.html">Reviews</a>
+      </nav>
+
+      <a href="#contact" class="cta">Free Audit</a>
+    </header>
+
+    <!-- =========================
+         HERO
+    ========================== -->
+    <section class="hero stage" id="home">
+      <div class="pill reveal">
+        <span class="pill__dot"></span>
+        AI automation • GoHighLevel • Make • Zapier • Voice/Chat Bots
+      </div>
+
+      <h1 class="hero__title reveal">
+        Want more bookings<br />
+        <span class="grad">this week?</span>
+      </h1>
+
+      <p class="hero__sub reveal">
+        I review your current setup and show you exactly what to automate to get
+        faster replies, more appointments, and less manual work — without breaking your system.
+      </p>
+
+      <div class="hero__buttons reveal">
+        <a href="#contact" class="btn btn--primary btn--xl">Get free audit</a>
+        <a href="#caseStudies" class="btn btn--ghost btn--xl">View case studies</a>
+      </div>
+
+      <!-- ✅ HERO STATS -->
+      <div class="hero__stats reveal">
+        <div class="stat" data-count="60" data-suffix="sec">
+          <div class="stat__top">
+            <div class="stat__icon">⏱️</div>
+            <span class="stat__trend up">↓ Avg reply time</span>
+          </div>
+          <div class="stat__num">
+            <span class="statCount">0</span>
+            <span class="statSuffix">sec</span>
+          </div>
+          <div class="stat__label">Average reply time after automation installs</div>
+        </div>
+
+        <div class="stat" data-count="35" data-suffix="%">
+          <div class="stat__top">
+            <div class="stat__icon">📈</div>
+            <span class="stat__trend up">↑ More bookings</span>
+          </div>
+          <div class="stat__num">
+            <span class="statCount">0</span>
+            <span class="statSuffix">%</span>
+          </div>
+          <div class="stat__label">Clients typically increase bookings within 21 days</div>
+        </div>
+
+        <div class="stat" data-count="40" data-suffix="%">
+          <div class="stat__top">
+            <div class="stat__icon">🧠</div>
+            <span class="stat__trend down">↓ Manual work</span>
+          </div>
+          <div class="stat__num">
+            <span class="statCount">0</span>
+            <span class="statSuffix">%</span>
+          </div>
+          <div class="stat__label">Automation replaces repetitive admin and follow-ups</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         TOOLS STRIP (LOOPING)
+    ========================== -->
+    <section class="section toolsStrip reveal" id="overview">
+      <div class="section__head">
+        <h2 class="section__title">Tools I work with</h2>
+        <p class="section__sub">
+          Plugging automation into the tools you already use — without disrupting your workflow.
+        </p>
+      </div>
+
+      <!-- ✅ LOOPING TOOL ROW -->
+      <div class="toolRow">
+        <div class="toolTrack" id="toolTrack">
+          <div class="toolPill"><span class="toolEmoji">⚡</span> GoHighLevel</div>
+          <div class="toolPill"><span class="toolEmoji">🔗</span> Zapier</div>
+          <div class="toolPill"><span class="toolEmoji">🛠️</span> Make</div>
+          <div class="toolPill"><span class="toolEmoji">💳</span> Stripe</div>
+          <div class="toolPill"><span class="toolEmoji">📂</span> Google Workspace</div>
+          <div class="toolPill"><span class="toolEmoji">🤖</span> AI Assistants</div>
+
+          <!-- duplicate once for seamless loop -->
+          <div class="toolPill"><span class="toolEmoji">⚡</span> GoHighLevel</div>
+          <div class="toolPill"><span class="toolEmoji">🔗</span> Zapier</div>
+          <div class="toolPill"><span class="toolEmoji">🛠️</span> Make</div>
+          <div class="toolPill"><span class="toolEmoji">💳</span> Stripe</div>
+          <div class="toolPill"><span class="toolEmoji">📂</span> Google Workspace</div>
+          <div class="toolPill"><span class="toolEmoji">🤖</span> AI Assistants</div>
+        </div>
+      </div>
+
+      <!-- =========================
+           SERVICES CAROUSEL
+      ========================== -->
+      <div class="autoCarouselWrap reveal" id="services">
+        <h2 class="section__title">What I Automate for Businesses</h2>
+        <p class="section__sub">
+          I build systems that capture leads, reply instantly, qualify prospects, and book calls —
+          while keeping everything tracked inside your CRM.
+        </p>
+
+        <div class="carouselNav">
+          <button class="carouselBtn" id="carPrev" aria-label="Prev">◀</button>
+          <button class="carouselBtn" id="carNext" aria-label="Next">▶</button>
+        </div>
+
+        <div class="autoCarousel" id="autoCarousel">
+          <div class="autoCard">
+            <div class="autoCard__top">
+              <span class="autoBadge">AI Qualification</span>
+              <div class="autoIcon autoIcon--purple">🧠</div>
+            </div>
+            <h3>AI Qualification + Smart Routing</h3>
+            <p>Your AI qualifies leads, asks questions, and routes them to the right workflow automatically.</p>
+            <ul class="autoList">
+              <li>Intent-based conversations</li>
+              <li>Auto assign + alerts</li>
+              <li>Human handoff rules</li>
+            </ul>
+          </div>
+
+          <div class="autoCard">
+            <div class="autoCard__top">
+              <span class="autoBadge">Bookings</span>
+              <div class="autoIcon autoIcon--orange">📅</div>
+            </div>
+            <h3>Booking + No-show Reduction</h3>
+            <p>Automatic scheduling, reminders, confirmations, and reschedules to protect your calendar.</p>
+            <ul class="autoList">
+              <li>Calendar booking flows</li>
+              <li>SMS reminders & reschedule</li>
+              <li>Confirmation automation</li>
+            </ul>
+          </div>
+
+          <div class="autoCard">
+            <div class="autoCard__top">
+              <span class="autoBadge">Integrations</span>
+              <div class="autoIcon autoIcon--green">🔗</div>
+            </div>
+            <h3>Make / Zapier Integrations</h3>
+            <p>Connect Stripe, Sheets, Slack, CRMs, APIs & webhooks — with clean logic and reliability.</p>
+            <ul class="autoList">
+              <li>Error handling + retries</li>
+              <li>Data cleanup + dedupe</li>
+              <li>Webhook workflows</li>
+            </ul>
+          </div>
+
+          <div class="autoCard">
+            <div class="autoCard__top">
+              <span class="autoBadge">Lead Capture</span>
+              <div class="autoIcon autoIcon--zap">⚡</div>
+            </div>
+            <h3>Lead Capture → Instant Follow-up</h3>
+            <p>Turn forms, ads, and DMs into instant replies, lead scoring, and CRM entry in seconds.</p>
+            <ul class="autoList">
+              <li>Instant response routing</li>
+              <li>Pipeline stage updates</li>
+              <li>Lead score tagging</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="autoCTA reveal">
+        <div>
+          <div class="autoCTA__title">Want these installed for you?</div>
+          <div class="autoCTA__text">
+            I’ll build your automation system end-to-end and hand you a setup that runs without constant babysitting.
+          </div>
+        </div>
+        <a href="#contact" class="btn btn--primary btn--xl">Get a Free Audit</a>
+      </div>
+    </section>
+
+    <!-- =========================
+         PROCESS
+    ========================== -->
+    <section class="section reveal" id="process">
+      <div class="section__head">
+        <h2 class="section__title">How the Automation Works</h2>
+        <p class="section__sub">
+          A simple process that installs automation into your business without disrupting your current workflow.
+          Fast, clean, and built for results.
+        </p>
+      </div>
+
+      <div class="howGrid">
+        <div class="howCard">
+          <div class="howCard__top">
+            <div class="howStep">01</div>
+            <div class="howBadge">Audit</div>
+          </div>
+          <h3>Free Automation Audit</h3>
+          <p>I review your setup (lead flow, reply time, CRM pipeline, follow-ups) and identify the highest ROI automations.</p>
+        </div>
+
+        <div class="howCard">
+          <div class="howCard__top">
+            <div class="howStep">02</div>
+            <div class="howBadge">Build</div>
+          </div>
+          <h3>Build + Install Systems</h3>
+          <p>I build the full stack: lead capture, instant replies, qualification, booking flows, CRM updates, and tracking.</p>
+        </div>
+
+        <div class="howCard">
+          <div class="howCard__top">
+            <div class="howStep">03</div>
+            <div class="howBadge">Scale</div>
+          </div>
+          <h3>Launch + Scale</h3>
+          <p>Your system goes live with testing + monitoring. Then we optimize performance, add upgrades, and scale workflows.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         VALUES
+    ========================== -->
+    <section class="section reveal">
+      <div class="section__head">
+        <h2 class="section__title">Why Businesses Choose My Automation Systems</h2>
+        <p class="section__sub">
+          You’re not buying a “random workflow.” You’re getting a premium automation system designed to convert leads,
+          reduce admin work, and scale operations reliably.
+        </p>
+      </div>
+
+      <div class="valuesGrid">
+        <div class="valueCard">
+          <div class="valueIcon">⚡</div>
+          <h3>Fast Response Systems</h3>
+          <p>Leads get responses within seconds — so you don’t lose clients to slower competitors.</p>
+        </div>
+
+        <div class="valueCard">
+          <div class="valueIcon">🧠</div>
+          <h3>Smart AI Qualification</h3>
+          <p>AI qualifies leads automatically and routes only high-intent prospects into your calendar.</p>
+        </div>
+
+        <div class="valueCard">
+          <div class="valueIcon">📅</div>
+          <h3>Booking-First Workflows</h3>
+          <p>Built around confirmations, reminders, and follow-ups to reduce no-shows and protect time.</p>
+        </div>
+
+        <div class="valueCard">
+          <div class="valueIcon">🛡️</div>
+          <h3>Reliable + Error-Proof</h3>
+          <p>Every workflow includes logging, retries, and safety handling to prevent missed leads.</p>
+        </div>
+
+        <div class="valueCard">
+          <div class="valueIcon">📊</div>
+          <h3>Tracking + Reporting</h3>
+          <p>You’ll always know what’s working — everything logged inside CRM with performance insight.</p>
+        </div>
+
+        <div class="valueCard">
+          <div class="valueIcon">🤖</div>
+          <h3>Robot Everywhere</h3>
+          <p>Your assistant stays active 24/7 — replying, qualifying, and routing while you sleep.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         CASE STUDIES
+    ========================== -->
+    <section class="section reveal" id="caseStudies">
+      <div class="section__head">
+        <h2 class="section__title">Case Studies</h2>
+        <p class="section__sub">
+          Real systems I built that increased bookings, reduced manual work, and automated follow-ups. Click to see the full breakdown.
+        </p>
+      </div>
+
+      <div class="caseGrid">
+        <div class="caseCard caseGlow"
+          data-title="From slow replies → to instant bookings"
+          data-sub="Built an automation system that replies instantly, qualifies leads, and books calls automatically."
+          data-img="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1400&q=80"
+          data-problem="Slow lead responses = lost deals. Manual follow-ups were draining time."
+          data-solution="Installed AI replies, qualification flow, calendar booking, and CRM updates."
+          data-result="Reply time dropped to 60 sec. Bookings increased 35%. Manual work reduced 40%.">
+
+          <div class="caseCard__media">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1400&q=80" alt="Case study 1" />
+          </div>
+          <div class="caseCard__content">
+            <span class="caseBadge">AI Booking System</span>
+            <h3>From slow replies → to instant bookings</h3>
+            <p>Built an automation system that replies instantly, qualifies leads, and books calls automatically.</p>
+
+            <div class="caseStats">
+              <div class="caseStat"><div class="caseStat__num">60 sec</div><div class="caseStat__label">Reply time</div></div>
+              <div class="caseStat"><div class="caseStat__num">+35%</div><div class="caseStat__label">Bookings</div></div>
+              <div class="caseStat"><div class="caseStat__num">-40%</div><div class="caseStat__label">Manual work</div></div>
+            </div>
+
+            <div class="caseBtn">
+              <button class="btn btn--primary btn--xl">View Full Breakdown →</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="caseCard caseGlow"
+          data-title="From messy leads → to qualified appointments"
+          data-sub="Installed lead scoring + qualification to filter bad leads and auto-route serious prospects."
+          data-img="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1400&q=80"
+          data-problem="Too many low-quality leads & no system to qualify them."
+          data-solution="AI questions + scoring tags + smart routing into calendar."
+          data-result="Client wasted 0 time on low buyers. Calendar filled with qualified calls.">
+
+          <div class="caseCard__media">
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1400&q=80" alt="Case study 2" />
+          </div>
+          <div class="caseCard__content">
+            <span class="caseBadge">AI Qualification</span>
+            <h3>From messy leads → to qualified appointments</h3>
+            <p>Installed lead scoring + qualification to filter bad leads and auto-route serious prospects.</p>
+
+            <div class="caseStats">
+              <div class="caseStat"><div class="caseStat__num">+48%</div><div class="caseStat__label">Qualified leads</div></div>
+              <div class="caseStat"><div class="caseStat__num">-62%</div><div class="caseStat__label">Wasted calls</div></div>
+              <div class="caseStat"><div class="caseStat__num">+20%</div><div class="caseStat__label">Close rate</div></div>
+            </div>
+
+            <div class="caseBtn">
+              <button class="btn btn--primary btn--xl">View Full Breakdown →</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="caseCard caseGlow"
+          data-title="From no-shows → to protected calendar"
+          data-sub="Installed reminders, confirmations, and reschedule flows to prevent lost time."
+          data-img="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1400&q=80"
+          data-problem="No-shows were killing revenue and creating empty time blocks."
+          data-solution="SMS reminder sequences + confirmation check-ins + reschedule workflow."
+          data-result="No-shows dropped 40%. Calendar stayed full. Client stopped chasing people.">
+
+          <div class="caseCard__media">
+            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1400&q=80" alt="Case study 3" />
+          </div>
+          <div class="caseCard__content">
+            <span class="caseBadge">Booking System</span>
+            <h3>From no-shows → to protected calendar</h3>
+            <p>Installed reminders, confirmations, and reschedule flows to prevent no-shows and lost time.</p>
+
+            <div class="caseStats">
+              <div class="caseStat"><div class="caseStat__num">-40%</div><div class="caseStat__label">No-shows</div></div>
+              <div class="caseStat"><div class="caseStat__num">+25%</div><div class="caseStat__label">Consistency</div></div>
+              <div class="caseStat"><div class="caseStat__num">24/7</div><div class="caseStat__label">Follow-up</div></div>
+            </div>
+
+            <div class="caseBtn">
+              <button class="btn btn--primary btn--xl">View Full Breakdown →</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         TESTIMONIALS
+    ========================== -->
+    <section class="section reveal" id="reviews">
+      <div class="section__head">
+        <h2 class="section__title">What Clients Say</h2>
+        <p class="section__sub">
+          These are real outcomes from automation systems I built — faster replies, more bookings, and less manual work.
+        </p>
+      </div>
+
+      <div class="testWrap reveal">
+        <div class="testNav">
+          <button class="carouselBtn" id="testPrev">◀</button>
+          <button class="carouselBtn" id="testNext">▶</button>
+        </div>
+
+        <div class="testSlider" id="testSlider">
+          <div class="testCard">
+            <div class="testTop">
+              <div class="testAvatar">S</div>
+              <div>
+                <div class="testName">Sarah L.</div>
+                <div class="testRole">Coach + Consultant</div>
+              </div>
+            </div>
+            <div class="testStars">★★★★★</div>
+            <div class="testText">
+              The automation setup is insanely smooth. It qualifies leads, sends reminders,
+              and updates the CRM automatically. I stopped worrying about follow-ups.
+            </div>
+            <div class="testMeta">
+              <span>✅ Time saved: 10+ hrs/week</span>
+              <span>📉 No-shows: -40%</span>
+            </div>
+          </div>
+
+          <div class="testCard">
+            <div class="testTop">
+              <div class="testAvatar">J</div>
+              <div>
+                <div class="testName">Jason M.</div>
+                <div class="testRole">Ecom Brand</div>
+              </div>
+            </div>
+            <div class="testStars">★★★★★</div>
+            <div class="testText">
+              Every workflow is clean, error-proof, and tracked. This isn’t random Zapier work —
+              it’s a full automation system designed to scale.
+            </div>
+            <div class="testMeta">
+              <span>⚡ Faster pipeline</span>
+              <span>🔒 No missed leads</span>
+            </div>
+          </div>
+
+          <div class="testCard">
+            <div class="testTop">
+              <div class="testAvatar">R</div>
+              <div>
+                <div class="testName">Rizwan A.</div>
+                <div class="testRole">Real Estate</div>
+              </div>
+            </div>
+            <div class="testStars">★★★★★</div>
+            <div class="testText">
+              We now have instant follow-ups, reminders, and lead routing.
+              The system works even while we sleep — it’s like having a full-time assistant.
+            </div>
+            <div class="testMeta">
+              <span>🤖 24/7 Assistant</span>
+              <span>📩 Instant replies</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- TRUSTED LOOP -->
+        <div class="trustedWrap reveal">
+          <div class="trustedTitle">Trusted with:</div>
+          <div class="trustedRail">
+            <div class="trustedTrack trustedLoop" id="trustedMarquee">
+              <span class="trustedPill">GoHighLevel</span>
+              <span class="trustedPill">Zapier</span>
+              <span class="trustedPill">Make</span>
+              <span class="trustedPill">Stripe</span>
+              <span class="trustedPill">Google Workspace</span>
+
+              <span class="trustedPill">GoHighLevel</span>
+              <span class="trustedPill">Zapier</span>
+              <span class="trustedPill">Make</span>
+              <span class="trustedPill">Stripe</span>
+              <span class="trustedPill">Google Workspace</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         CONTACT / FOOTER
+    ========================== -->
+    <footer class="footer reveal" id="contact">
+      <div class="footer__grid">
+        <div>
+          <div class="logo">
+            <span class="logo__mark"></span> Zulqurnain
+          </div>
+          <div class="footer__muted">
+            Premium AI automation systems built for growth — GoHighLevel, Zapier, Make, and custom workflows.
+          </div>
+        </div>
+
+        <div>
+          <div class="footer__title">Pages</div>
+          <ul class="footer__links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer__title">Contact</div>
+          <div class="footer__muted footer__email">youremail@example.com</div>
+          <div class="footer__muted">Reply time: usually within 24 hours.</div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        © <span id="year"></span> Zulqurnain. All rights reserved.
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- =========================
+       CASE STUDY MODAL
+  ========================== -->
+  <div class="caseModal" id="caseModal">
+    <div class="caseModal__overlay" id="caseModalOverlay"></div>
+
+    <div class="caseModal__box">
+      <button class="caseModal__close" id="caseModalClose">✕</button>
+
+      <div class="caseModal__grid">
+        <div class="caseModal__img">
+          <img id="modalImg" src="" alt="Case study preview" />
+        </div>
+
+        <div class="caseModal__content">
+          <span class="caseBadge">CASE STUDY</span>
+          <h3 id="modalTitle">Client Transformation</h3>
+          <p class="caseModal__sub" id="modalSub">A premium automation system built for real outcomes.</p>
+
+          <div class="caseModal__steps">
+            <div class="step">
+              <span class="step__tag">Problem</span>
+              <p id="modalProblem"></p>
+            </div>
+
+            <div class="step">
+              <span class="step__tag">Solution</span>
+              <p id="modalSolution"></p>
+            </div>
+
+            <div class="step">
+              <span class="step__tag">Result</span>
+              <p id="modalResult"></p>
+            </div>
+          </div>
+
+          <div style="margin-top:18px;">
+            <a href="#contact" class="btn btn--primary btn--xl">Get the same system →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ✅ MAIN JS ONLY ONCE AND INSIDE BODY -->
+  <script src="main.js"></script>
+
+</body>
+</html>
